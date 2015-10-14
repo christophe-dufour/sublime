@@ -8,6 +8,6 @@ class MyEvents( sublime_plugin.EventListener ):
 
       if s:
          if not os.path.exists( s ):
-            if not "Default" in s:
+            if not "sublime-settings" in s:
                view.set_scratch( True )
                sublime.set_timeout(lambda: view.window().run_command("close_file"), 0)
