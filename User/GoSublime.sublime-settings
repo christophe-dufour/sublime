@@ -1,0 +1,5 @@
+{
+  "env": {"GOPATH": "/Users/christophedufour/w/go"},
+  "fmt_tab_indent": true,
+  "fmt_cmd": ["goimports"],
+}

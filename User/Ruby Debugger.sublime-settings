@@ -1,0 +1,8 @@
+{
+  // Which ruby version are supported, by default listed here are the versions
+  // we already have checked.
+  "supported_ruby_versions": ["2.1.2", "2.2.1", "1.9.3"],
+    // Pointing the path to rails executable, if empty,
+  // the debugger check if either "script/rails" or "bin/rails" exists and uses them
+  "rails_executable_path": "/Users/christophedufour/.rvm/rubies/ruby-2.1.2/bin/ruby"
+}
