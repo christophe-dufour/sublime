@@ -12,12 +12,6 @@
 
 { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
-{ "keys": ["super+x"], "command": "clipboard_manager_cut" },
-{ "keys": ["super+c"], "command": "clipboard_manager_copy" },
-{ "keys": ["super+v"], "command": "clipboard_manager_paste", "args": { "indent": true } },
-{ "keys": ["super+ctrl+v"], "command": "clipboard_manager_paste", "args": { "indent": false } },
-{ "keys": ["super+shift+v"], "command": "clipboard_manager_previous_and_paste" },
-{ "keys": ["super+alt+ctrl+v"], "command": "clipboard_manager_choose_and_paste" },
 { "keys": ["super+n"], "command": "advanced_new_file_new"},
 { "keys": ["ctrl+shift+s"], "command": "auto_save" }
 ]
